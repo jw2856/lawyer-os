@@ -1,0 +1,8 @@
+{
+  "name": "lawyer-os",
+  "description": "Legal operating system — contract review, NDA triage, negotiation, legal memos, compliance, and more. Powered by a personalized knowledge base with standards, playbooks, and institutional memory.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Name"
+  }
+}
