@@ -172,3 +172,11 @@ The system prompts you to save these after each task.
 ## License
 
 MIT
+
+---
+
+## Built by Eigen Legal
+
+lawyer-os is a free, open source tool built by [Eigen Legal](https://eigenlegal.com). We help law firms and in-house legal teams build custom AI workflows — trained on your standards, your playbooks, and your judgment.
+
+Want a custom version built for your practice? [Book a free consultation →](https://eigenlegal.com)
