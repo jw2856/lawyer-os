@@ -1,18 +1,13 @@
 ---
-description: Screen and triage an NDA for quick classification and routing — flag risk areas, generate counter-language, provide business impact analysis
-argument-hint: "<NDA file, URL, or text>"
+name: triage
+description: "Screen and triage an NDA for quick classification and routing — flag risk areas, generate counter-language, provide business impact analysis. Use when the user uploads or shares an NDA for screening or quick triage."
 ---
 
-# /lawyer-os:triage -- NDA Triage
+# NDA Triage
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Screen an NDA against your organization's standards. Classify each section, flag deviations, generate counter-language for problem areas, and recommend routing.
-
-## Invocation
-```
-/lawyer-os:triage [file path, URL, or pasted text] [optional: counterparty name]
-```
 
 ## Workflow
 

@@ -1,18 +1,13 @@
 ---
-description: Draft an amendment to an existing agreement — identify downstream effects, draft precise modification language, ensure consistency with the original
-argument-hint: "<original agreement file, URL, or text> <changes needed>"
+name: amend
+description: "Draft an amendment to an existing agreement — identify downstream effects, draft precise modification language, ensure consistency with the original. Use when the user needs to modify, update, or amend an existing contract or agreement."
 ---
 
-# /lawyer-os:amend -- Draft Amendment
+# Draft Amendment
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Draft an amendment to an existing agreement. Review the original agreement's amendment mechanism, identify downstream effects of the proposed changes, and produce a ready-to-execute amendment document.
-
-## Invocation
-```
-/lawyer-os:amend [original agreement file path, URL, or reference] [description of changes] [optional: effective date]
-```
 
 ## Workflow
 

@@ -1,18 +1,13 @@
 ---
-description: Draft or review a policy, terms of service, or similar governance document — identify legal requirements, draft provisions, flag stakeholder decisions
-argument-hint: "<policy type>"
+name: policy
+description: "Draft or review a policy, terms of service, or similar governance document — identify legal requirements, draft provisions, flag stakeholder decisions. Use when the user needs to create or update a privacy policy, terms of service, acceptable use policy, or other governance document."
 ---
 
-# /lawyer-os:policy -- Policy Drafting
+# Policy Drafting
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Draft or review a policy document (privacy policy, terms of service, acceptable use policy, etc.). Identify all applicable legal requirements, draft provisions meeting those requirements, and flag areas needing stakeholder input.
-
-## Invocation
-```
-/lawyer-os:policy [policy type] [optional: internal or external-facing] [optional: existing version file path or URL]
-```
 
 ## Workflow
 

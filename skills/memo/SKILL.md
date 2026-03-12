@@ -1,18 +1,13 @@
 ---
-description: Write a privileged legal memo analyzing a question or topic — structured analysis with risk assessment and actionable recommendations
-argument-hint: "<question or topic>"
+name: memo
+description: "Write a privileged legal memo analyzing a question or topic — structured analysis with risk assessment and actionable recommendations. Use when the user asks a legal question, needs legal analysis, or wants a formal legal memorandum."
 ---
 
-# /lawyer-os:memo -- Legal Memo
+# Legal Memo
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Write a privileged legal memorandum analyzing a legal question or topic. Structure the analysis by issue, assess risk using Severity x Likelihood, and provide clear, actionable recommendations calibrated to the audience.
-
-## Invocation
-```
-/lawyer-os:memo [question or topic] [optional: audience] [optional: relevant context]
-```
 
 ## Workflow
 

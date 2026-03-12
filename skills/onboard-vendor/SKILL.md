@@ -1,18 +1,13 @@
 ---
-description: Onboard and evaluate a new vendor through the TPRM process — risk assessment, due diligence, agreement review, approval, and ongoing management
-argument-hint: "<vendor name>"
+name: onboard-vendor
+description: "Onboard and evaluate a new vendor through the TPRM process — risk assessment, due diligence, agreement review, approval, and ongoing management. Use when the user needs to evaluate or onboard a new vendor or third party."
 ---
 
-# /lawyer-os:onboard-vendor -- Vendor Onboarding
+# Vendor Onboarding
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Onboard a new vendor through the Third-Party Risk Management (TPRM) process. Gather vendor information, assess risk tier, perform scaled due diligence, review the vendor agreement, make an approval recommendation, and set up ongoing management.
-
-## Invocation
-```
-/lawyer-os:onboard-vendor [vendor name] [service/product description] [optional: internal business owner] [optional: data access scope]
-```
 
 ## Workflow
 
@@ -136,7 +131,7 @@ Perform due diligence appropriate to the assigned risk tier:
 
 ### Step 7: Agreement Review
 
-Trigger the `/lawyer-os:review` command for the vendor's contract, with vendor-specific focus:
+Trigger the `/lawyer-os:review` skill for the vendor's contract, with vendor-specific focus:
 
 | Contract Element | Standard Requirement | Vendor's Position | Status |
 |-----------------|---------------------|------------------|--------|

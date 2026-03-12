@@ -19,25 +19,25 @@ You MUST load the relevant knowledge files before starting. Do not rely on gener
 - `knowledge/core/standards.md` -- Default positions for each clause type
 - `knowledge/core/style.md` -- Writing voice, tone, and formatting patterns
 
-**Step 2: Identify the task and load the matching command.**
+**Step 2: Identify the task and load the matching skill.**
 
-Commands are in the `commands/` directory. Each command defines exactly what to load and how to execute.
+Skills are in the `skills/` directory. Each skill defines exactly what to load and how to execute.
 
-| Command | File | What It Does |
-|---------|------|-------------|
-| `/lawyer-os:review` | `commands/review.md` | Review a contract against standards |
-| `/lawyer-os:triage` | `commands/triage.md` | Screen and classify an NDA |
-| `/lawyer-os:negotiate` | `commands/negotiate.md` | Negotiate / redline an agreement |
-| `/lawyer-os:memo` | `commands/memo.md` | Write a legal memo or advice |
-| `/lawyer-os:compliance` | `commands/compliance.md` | Assess compliance requirements |
-| `/lawyer-os:amend` | `commands/amend.md` | Draft an amendment |
-| `/lawyer-os:dispute` | `commands/dispute.md` | Respond to a dispute/demand/subpoena |
-| `/lawyer-os:policy` | `commands/policy.md` | Draft or review a policy or terms |
-| `/lawyer-os:diligence` | `commands/diligence.md` | Conduct due diligence |
-| `/lawyer-os:onboard-vendor` | `commands/onboard-vendor.md` | Vendor onboarding (TPRM) |
-| `/lawyer-os:governance` | `commands/governance.md` | Board/governance matters |
+| Skill | File | What It Does |
+|-------|------|-------------|
+| `/lawyer-os:review` | `skills/review/SKILL.md` | Review a contract against standards |
+| `/lawyer-os:triage` | `skills/triage/SKILL.md` | Screen and classify an NDA |
+| `/lawyer-os:negotiate` | `skills/negotiate/SKILL.md` | Negotiate / redline an agreement |
+| `/lawyer-os:memo` | `skills/memo/SKILL.md` | Write a legal memo or advice |
+| `/lawyer-os:compliance` | `skills/compliance/SKILL.md` | Assess compliance requirements |
+| `/lawyer-os:amend` | `skills/amend/SKILL.md` | Draft an amendment |
+| `/lawyer-os:dispute` | `skills/dispute/SKILL.md` | Respond to a dispute/demand/subpoena |
+| `/lawyer-os:policy` | `skills/policy/SKILL.md` | Draft or review a policy or terms |
+| `/lawyer-os:diligence` | `skills/diligence/SKILL.md` | Conduct due diligence |
+| `/lawyer-os:onboard-vendor` | `skills/onboard-vendor/SKILL.md` | Vendor onboarding (TPRM) |
+| `/lawyer-os:governance` | `skills/governance/SKILL.md` | Board/governance matters |
 
-Each command file specifies which knowledge files to load and which playbook to follow. **Read the command file first** -- it tells you exactly what to do.
+Each skill file specifies which knowledge files to load and which playbook to follow. **Read the skill file first** -- it tells you exactly what to do.
 
 If the task doesn't match a skill, use principles.md and standards.md as your guide.
 
@@ -93,22 +93,19 @@ Always confirm the edit before writing. Show what will change.
 ## Knowledge Map
 
 ```
-commands/                              # Slash commands (user-invoked via /lawyer-os:name)
-  review.md                            # /lawyer-os:review
-  triage.md                            # /lawyer-os:triage
-  negotiate.md                         # /lawyer-os:negotiate
-  memo.md                              # /lawyer-os:memo
-  compliance.md                        # /lawyer-os:compliance
-  amend.md                             # /lawyer-os:amend
-  dispute.md                           # /lawyer-os:dispute
-  policy.md                            # /lawyer-os:policy
-  diligence.md                         # /lawyer-os:diligence
-  onboard-vendor.md                    # /lawyer-os:onboard-vendor
-  governance.md                        # /lawyer-os:governance
-
-skills/                                # Auto-detected skills (context-aware)
-  legal-review/SKILL.md                # Activates when working with contracts/legal docs
-  legal-knowledge/SKILL.md             # Activates during any legal work
+skills/                                # Skills (user-invoked via /lawyer-os:name or auto-activated)
+  review/SKILL.md                      # /lawyer-os:review
+  triage/SKILL.md                      # /lawyer-os:triage
+  negotiate/SKILL.md                   # /lawyer-os:negotiate
+  memo/SKILL.md                        # /lawyer-os:memo
+  compliance/SKILL.md                  # /lawyer-os:compliance
+  amend/SKILL.md                       # /lawyer-os:amend
+  dispute/SKILL.md                     # /lawyer-os:dispute
+  policy/SKILL.md                      # /lawyer-os:policy
+  diligence/SKILL.md                   # /lawyer-os:diligence
+  onboard-vendor/SKILL.md              # /lawyer-os:onboard-vendor
+  governance/SKILL.md                  # /lawyer-os:governance
+  legal-knowledge/SKILL.md             # Auto-activates during any legal work
 
 knowledge/
   core/                                # Always load
@@ -163,7 +160,7 @@ knowledge/
 
 ## Setup Guide
 
-This plugin is designed to be personalized by any lawyer. The structure (commands, playbooks, checklists, legal knowledge) is universal. The content is personal.
+This plugin is designed to be personalized by any lawyer. The structure (skills, playbooks, checklists, legal knowledge) is universal. The content is personal.
 
 **To personalize for your practice:**
 
@@ -178,11 +175,11 @@ This plugin is designed to be personalized by any lawyer. The structure (command
 9. **`.claude-plugin/plugin.json`** -- Update the author name.
 
 **Everything works out of the box:**
-- 11 commands (`/lawyer-os:review`, `/lawyer-os:triage`, etc.)
+- 11 skills (`/lawyer-os:review`, `/lawyer-os:triage`, etc.) + 1 auto-activating knowledge skill
 - 11 playbooks with step-by-step processes
 - 13 legal knowledge reference files
-- 3 checklists
-- 5 clause library files (populate as you work)
+- 6 checklists
+- 6 clause library files (populate as you work)
 - 3 memory logs (populate through use)
 
 ## Document Sources

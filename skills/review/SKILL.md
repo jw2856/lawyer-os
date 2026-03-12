@@ -1,18 +1,13 @@
 ---
-description: Review a contract against your standards — flag deviations, generate redlines, provide business impact analysis
-argument-hint: "<contract file, URL, or text>"
+name: review
+description: "Review a contract against your organization's standards — flag deviations, generate redlines, provide business impact analysis. Use when the user uploads a contract, pastes agreement text, or asks for a contract review against standards."
 ---
 
-# /lawyer-os:review -- Contract Review
+# Contract Review
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Review a contract against your organization's standards. Analyze each clause, flag deviations, generate redline suggestions, and provide business impact analysis.
-
-## Invocation
-```
-/lawyer-os:review [file path, URL, or pasted text]
-```
 
 ## Workflow
 

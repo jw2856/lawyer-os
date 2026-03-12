@@ -1,18 +1,13 @@
 ---
-description: Handle board matters, resolutions, corporate governance, and entity management — draft resolutions, minutes, formation documents, and compliance filings
-argument-hint: "<governance task type>"
+name: governance
+description: "Handle board matters, resolutions, corporate governance, and entity management — draft resolutions, minutes, formation documents, and compliance filings. Use when the user has board, governance, corporate, or entity management tasks."
 ---
 
-# /lawyer-os:governance -- Board & Governance
+# Board & Governance
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Handle corporate governance tasks including board resolutions, board minutes, entity formation, annual compliance, officer/director changes, equity issuances, and other corporate actions. Draft the appropriate documents, identify filing requirements, and track deadlines.
-
-## Invocation
-```
-/lawyer-os:governance [task type] [relevant details]
-```
 
 ## Workflow
 

@@ -4,10 +4,10 @@ A personal legal operating system for Claude Code. Review contracts, triage NDAs
 
 ## What It Does
 
-11 commands for the legal workflows you do every day:
+11 skills for the legal workflows you do every day:
 
-| Command | What It Does |
-|---------|-------------|
+| Skill | What It Does |
+|-------|-------------|
 | `/lawyer-os:review` | Review a contract against your standards (GREEN/YELLOW/RED) |
 | `/lawyer-os:triage` | Screen and classify an NDA for quick routing |
 | `/lawyer-os:negotiate` | Generate redlines with rationale and fallback positions |
@@ -20,7 +20,7 @@ A personal legal operating system for Claude Code. Review contracts, triage NDAs
 | `/lawyer-os:onboard-vendor` | Third-party risk management workflow |
 | `/lawyer-os:governance` | Board resolutions, minutes, entity management |
 
-Every command follows a structured playbook, loads your specific standards and context, and produces consistent output with GREEN/YELLOW/RED classification, specific counter-language, and tiered prioritization.
+Every skill follows a structured playbook, loads your specific standards and context, and produces consistent output with GREEN/YELLOW/RED classification, specific counter-language, and tiered prioritization.
 
 ## How It Works
 
@@ -132,23 +132,25 @@ claude
 ### Start Using It
 
 ```
-> /lawyer-os:review path/to/contract.pdf
-> /lawyer-os:triage path/to/nda.pdf
-> /lawyer-os:memo "Can we do X under Y regulation?"
+/lawyer-os:review path/to/contract.pdf
+/lawyer-os:triage path/to/nda.pdf
+/lawyer-os:memo "Can we do X under Y regulation?"
 ```
+
+Skills also auto-activate when Claude detects relevant context -- upload a contract and it will automatically load your standards and playbooks.
 
 The system learns as you work -- after each task, it suggests updates to your standards, clause library, and institutional memory.
 
 ## What's Included
 
 **Ready to use:**
-- 11 slash commands with structured workflows
+- 11 skills with structured workflows (invocable and auto-activating)
+- 1 additional auto-activating knowledge skill
 - 11 playbooks with step-by-step processes
 - 13 legal knowledge reference files (payments, privacy, IP, compliance, etc.)
-- 3 checklists (vendor onboarding, due diligence, litigation hold)
-- 5 clause library files (populate with your proven language)
+- 6 checklists (contract review, NDA screening, vendor onboarding, due diligence, partner terms, litigation hold)
+- 6 clause library files (populate with your proven language)
 - 3 memory logs (decisions, exceptions, lessons learned)
-- 2 auto-activating skills (legal review, legal knowledge)
 
 **You provide:**
 - Your organization context

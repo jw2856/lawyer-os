@@ -1,18 +1,13 @@
 ---
-description: Conduct or respond to due diligence for transactions — generate request lists, review documents, flag issues, and produce DD reports
-argument-hint: "<transaction type> <target or requesting party>"
+name: diligence
+description: "Conduct or respond to due diligence for transactions — generate request lists, review documents, flag issues, and produce DD reports. Use when the user is involved in a transaction requiring due diligence, either conducting or responding."
 ---
 
-# /lawyer-os:diligence -- Due Diligence
+# Due Diligence
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Conduct or respond to due diligence for transactions. Generate or customize request lists, review documents by category, flag issues by severity, and produce comprehensive DD summary reports or document trackers.
-
-## Invocation
-```
-/lawyer-os:diligence [transaction type] [target or requesting party] [optional: scope/key risk areas] [optional: data room path or URL]
-```
 
 ## Workflow
 

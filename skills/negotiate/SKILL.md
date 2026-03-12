@@ -1,18 +1,13 @@
 ---
-description: Negotiate, redline, or propose changes to an agreement — generate position-by-position markup with business rationale and fallback positions
-argument-hint: "<agreement file, URL, or text>"
+name: negotiate
+description: "Negotiate, redline, or propose changes to an agreement — generate position-by-position markup with business rationale and fallback positions. Use when the user needs to negotiate contract terms, create redlines, or develop a negotiation strategy."
 ---
 
-# /lawyer-os:negotiate -- Agreement Negotiation
+# Agreement Negotiation
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Negotiate an agreement by analyzing counterparty terms against your standards, generating redlines or proposed variations, and building a negotiation strategy with prioritized positions and fallbacks.
-
-## Invocation
-```
-/lawyer-os:negotiate [file path, URL, or pasted text] [optional: partner/vendor context] [optional: negotiation structure]
-```
 
 ## Workflow
 

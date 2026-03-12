@@ -1,18 +1,13 @@
 ---
-description: Assess compliance requirements for a partnership, corridor, or activity — licensing, KYC/AML, data privacy, sanctions screening, and contractual provisions
-argument-hint: "<activity or jurisdiction>"
+name: compliance
+description: "Assess compliance requirements for a partnership, corridor, or activity — licensing, KYC/AML, data privacy, sanctions screening, and contractual provisions. Use when the user asks about compliance requirements, regulatory obligations, or licensing needs."
 ---
 
-# /lawyer-os:compliance -- Compliance Assessment
+# Compliance Assessment
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Assess compliance requirements for a business activity, partnership, or corridor. Identify licensing, KYC/AML, data protection, and sanctions requirements across jurisdictions, flag gaps, and recommend actions.
-
-## Invocation
-```
-/lawyer-os:compliance [activity or relationship] [jurisdictions] [optional: compliance area]
-```
 
 ## Workflow
 

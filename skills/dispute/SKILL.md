@@ -1,18 +1,13 @@
 ---
-description: Handle a demand letter, subpoena, regulatory inquiry, or litigation matter — classify, assess exposure, develop response strategy, and draft response
-argument-hint: "<dispute communication file, URL, or text>"
+name: dispute
+description: "Handle a demand letter, subpoena, regulatory inquiry, or litigation matter — classify, assess exposure, develop response strategy, and draft response. Use when the user receives a legal threat, dispute, demand letter, subpoena, or regulatory inquiry."
 ---
 
-# /lawyer-os:dispute -- Dispute Response
+# Dispute Response
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
+> If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 Handle incoming dispute communications including demand letters, subpoenas, regulatory inquiries, complaints, and litigation matters. Classify the communication, assess exposure, determine if a litigation hold is needed, develop a response strategy, and draft the response.
-
-## Invocation
-```
-/lawyer-os:dispute [file path, URL, or pasted text] [optional: context on the dispute]
-```
 
 ## Workflow
 
